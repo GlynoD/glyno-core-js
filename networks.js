@@ -29,7 +29,7 @@ exports.livenet = {
     'ec2-18-218-59-204.us-east-2.compute.amazonaws.com',
     'ec2-18-222-88-20.us-east-2.compute.amazonaws.com'
   ],
-  defaultClientPort: 9333
+  defaultClientPort: 57810
 };
 
 exports.mainnet = exports.livenet;
