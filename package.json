@@ -1,24 +1,20 @@
 {
-  "name": "Litecore",
-  "description": "Litecoin Library",
+  "name": "fantasygold-core",
+  "description": "Fantasygold Library",
   "version": "0.1.39",
   "author": {
-    "name": "pembo210",
-    "email": "pembo210@gmail.com"
+    "name": "Scott Lindh",
+    "email": "scottlindh@gmail.com"
   },
   "contributors": [
     {
-      "name": "FlappyDEV",
-      "email": "dev@goflap.io"
-    },
-    {
-    "name": "pembo210",
-    "email": "pembo210@gmail.com"
-  }
+      "name": "Console",
+      "email": "info@merkle.gorup"
+    }
   ],
   "keywords": [
-    "litecoin",
-    "ltc",
+    "fantasygold",
+    "FGC",
     "satoshi",
     "money",
     "currency",
@@ -27,7 +23,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pembo210/Litecore.git"
+    "url": "https://github.com/scottie/fantasygold-core.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
