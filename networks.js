@@ -6,28 +6,28 @@ var hex = function(hex) {
 
 exports.livenet = {
   name: 'livenet',
-  magic: hex('FBC0B6DB'),
-  addressVersion: 0x30,
+  magic: hex('54494D42'),
+  addressVersion: 0x23,
   privKeyVersion: 0xb0,
   P2SHVersion: 5,
-  hkeyPublicVersion: 0x0488c42e,
-  hkeyPrivateVersion: 0x0488e1f4,
+  hkeyPublicVersion: 0x4653474D,
+  hkeyPrivateVersion: 0x66736770,
   genesisBlock: {
-    hash: hex('E2BF047E7E5A191AA4EF34D314979DC9986E0F19251EDABA5940FD1FE365A712'),
-    merkle_root: hex('D9CED4ED1130F7B7FAAD9BE25323FFAFA33232A17C3EDF6CFD97BEE6BAFBDD97'),
+    hash: hex('97894e894c3e6721fac5ec5cf0d8881587a5bb37d1572bd65c195958b806000064'),
+    merkle_root: hex('02955549528d0bda6cf2910ab9e6d62690c9be41cc79a624743cbf57ecb4ef576'),
     height: 0,
-    nonce: 2084524493,
+    nonce: 1015505,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1317972665,
+    timestamp: 1509922046,
     bits: 504365040,
   },
   dnsSeeds: [
-    'dnsseed.litecointools.com',
-    'dnsseed.litecoinpool.org',
-    'dnsseed.ltc.xurious.com',
-    'dnsseed.koin-project.com',
-    'dnsseed.weminemnc.com'
+    'ec2-18-188-230-37.us-east-2.compute.amazonaws.com',
+    'ec2-18-216-52-206.us-east-2.compute.amazonaws.com',
+    'dec2-18-191-6-184.us-east-2.compute.amazonaws.com',
+    'ec2-18-218-59-204.us-east-2.compute.amazonaws.com',
+    'ec2-18-222-88-20.us-east-2.compute.amazonaws.com'
   ],
   defaultClientPort: 9333
 };
