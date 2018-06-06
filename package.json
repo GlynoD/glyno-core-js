@@ -34,7 +34,7 @@
   "dependencies": {
     "asn1.js": "0.4.1",
     "async": "~0.2.10",
-    "bignum": "=0.6.2",
+    "bignum": "^0.12.5",
     "bindings": "=1.1.1",
     "binary": "^0.3.0",
     "bn.js": "=0.13.3",
