@@ -6,30 +6,28 @@ var hex = function(hex) {
 
 exports.livenet = {
   name: 'livenet',
-  magic: hex('54494D42'),
+  magic: hex('66424153'),
   addressVersion: 0x23,
   privKeyVersion: 0xd4,
   P2SHVersion: 5,
-  hkeyPublicVersion: 0x4653474D,
-  hkeyPrivateVersion: 0x66736770,
+  hkeyPublicVersion: 0x056D2433,
+  hkeyPrivateVersion: 0x0561322B,
   genesisBlock: {
-    hash: hex('97894e894c3e6721fac5ec5cf0d8881587a5bb37d1572bd65c195958b806000064'),
-    merkle_root: hex('02955549528d0bda6cf2910ab9e6d62690c9be41cc79a624743cbf57ecb4ef57'),
+    hash: hex('000007abe55c9a6be1a2ce2ed3b7b231074aa9e50a4af679efb5710bac0410ad'),
+    merkle_root: hex('f367a1a6a353dce7db625afe59227cf45b87ffcb877849c1fb9404476636839d'),
     height: 0,
-    nonce: 1015505,
+    nonce: 2115764,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1509922046,
+    timestamp: 1529018953,
     bits: 504365040,
   },
   dnsSeeds: [
-    'ec2-18-188-230-37.us-east-2.compute.amazonaws.com',
-    'ec2-18-216-52-206.us-east-2.compute.amazonaws.com',
-    'dec2-18-191-6-184.us-east-2.compute.amazonaws.com',
-    'ec2-18-218-59-204.us-east-2.compute.amazonaws.com',
-    'ec2-18-222-88-20.us-east-2.compute.amazonaws.com'
+    '107.172.234.62',
+    '198.23.221.100',
+    '107.172.234.59'
   ],
-  defaultClientPort: 57810
+  defaultClientPort: 18843
 };
 
 exports.mainnet = exports.livenet;
