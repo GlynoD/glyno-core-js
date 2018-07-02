@@ -6,28 +6,28 @@ var hex = function(hex) {
 
 exports.livenet = {
   name: 'livenet',
-  magic: hex('66424153'),
-  addressVersion: 0x23,
+  magic: hex('a4bbfec1'),
+  addressVersion: 0x38,
   privKeyVersion: 0xd4,
   P2SHVersion: 5,
-  hkeyPublicVersion: 0x056D2433,
-  hkeyPrivateVersion: 0x0561322B,
+  hkeyPublicVersion: 0x0488A24E,
+  hkeyPrivateVersion: 0x0488BDA4,
   genesisBlock: {
-    hash: hex('000007abe55c9a6be1a2ce2ed3b7b231074aa9e50a4af679efb5710bac0410ad'),
-    merkle_root: hex('f367a1a6a353dce7db625afe59227cf45b87ffcb877849c1fb9404476636839d'),
+    hash: hex('00000d63d1ed573a262752a4f56da531c58c2c43e77f3fa7cd988b0bf91c3d8e'),
+    merkle_root: hex('28ab1b7ad72353df3ff93c8cd0fcec4d619f2972b12fbbfa68e8809a37e37e10'),
     height: 0,
-    nonce: 2115764,
+    nonce: 1142222,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1529018953,
-    bits: 504365040,
+    timestamp: 1529028000,
+    bits: 0x1e0ffff0,
   },
   dnsSeeds: [
-    '107.172.234.62',
-    '198.23.221.100',
-    '107.172.234.59'
+    '107.172.9.103,
+    '72.11.129.12',
+    '107.172.6.82'
   ],
-  defaultClientPort: 18843
+  defaultClientPort: 7442
 };
 
 exports.mainnet = exports.livenet;
