@@ -1,6 +1,6 @@
 {
-  "name": "fantasygold-core",
-  "description": "Fantasygold Library",
+  "name": "glyno-core-js",
+  "description": "glyno core Library",
   "version": "0.1.39",
   "author": {
     "name": "Scott Lindh",
@@ -23,7 +23,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/scottie/fantasygold-core.git"
+    "url": "https://github.com/GlynoD/glyno-core-js.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
